@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eshop</title>
+    <script src="js/clase06.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#03a6f3">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-12">
+                        <h5>Envio gratis en compras mayores a AR$ 5.000!</h5></div>
+                    </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"><img src="" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="navbar-item active">
+                                <a href="index.html" class="nav-link">Inicio</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Categorias</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Nosotros</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Preguntas frecuentes</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Iniciar sesion</a>
+                            </li>
+                        </ul>
+                        <div class="cart my-2 my-lg-0">
+                            <span>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i></span> 
+                        </div>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-4" type="search" placeholder="Ingresa, titulo, autor o editorial " aria-label="Search">
+                            <span class="fa fa-search"></span>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+  
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/sandrobanner.jpg" alt="Los Angeles" width="1200" height="300">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/lucrecia.png" alt="Chicago" width="1200" height="300">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Matilde.jpg" alt="New York" width="1200" height="300">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/sietemaridos.jpg" alt="New York" width="1200" height="300">
+          </div>
+        </div>
+        
+        
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+        
+    
+    <section class="recomended-sec">
+        <div class="container">
+            <div class="title">
+                <h2>Novedades</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <img src="images/filosofia.png" alt="img">
+                        <h3> Filosofia A Martillazos Tomo 2</h3>
+                        <p><span class="price">AR$ 1050</span> / <a href="#">Comprar</a></p>                     
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <img src="images/bonsai.png" alt="img">
+                        <h3>Bonsai</h3>
+                        <p><span class="price">AR$ 950,00</span> / <a href="#">Comprar</a></p>
+                        <div class="hover">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <img src="images/sandro.png" alt="img">
+                        <h3>LA NOVIA DE SANDRO</h3>
+                        <p><span class="price">AR$ 650,00</span> / <a href="#">Comprar</a></p>
+                        <div class="hover">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <img src="images/huerta.png" alt="img">
+                        <h3>HUERTA ORGANICA EN MACETAS</h3>
+                        <p><span class="price">AR$ 850,00</span> / <a href="#">Comprar</a></p>
+                        <div class="hover">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="recent-book-sec">
+        <div class="container">
+            <div class="title">
+                <h2>Recomendados</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/filosofia.png" alt="img">
+                        <h3> Filosofia A Martillazos Tomo 2</h3>
+                        <p><span class="price">AR$ 1050</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/sandro.png" alt="img">
+                        <h3>LA NOVIA DE SANDRO</h3>
+                        <p><span class="price">AR$ 650,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/lascosas.png" alt="img">
+                        <h3><a href="#">LAS COSAS QUE PERDIMOS EN EL FUEGO</a></h3>
+                        <p><span class="price">AR$ 985,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/1984.png" alt="img">
+                        <h3><a href="#">1984</a></h3>
+                        <p><span class="price">AR$ 649,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/ceguera.png" alt="img">
+                        <h3><a href="#">ENSAYO SOBRE LA CEGUERA</a></h3>
+                        <p><span class="price">AR$ 1.199,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/catedrales.png" alt="img">
+                        <h3><a href="#">CATEDRALES</a></h3>
+                        <p><span class="price">AR$ 899,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/tinieblas.png" alt="img">
+                        <h3><a href="#">LAS TINIEBLAS Y EL ALBA</a></h3>
+                        <p><span class="price">AR$ 1.999,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/perfromance.png" alt="img">
+                        <h3><a href="#">PERFORMANCE</a></h3>
+                        <p><span class="price">AR$ 990,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/incendio.png" alt="img">
+                        <h3><a href="#">COMO PROVOCAR UN INCENDIO Y PORQUE</a></h3>
+                        <p><span class="price">AR$ 850,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="item">
+                        <img src="images/matilde2.png" alt="img">
+                        <h3><a href="#">MATILDE DEBE MORIR</a></h3>
+                        <p><span class="price">AR$ 715,00</span> / <a href="#">Comprar</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-sec">
+                <a href="#" class="btn gray-btn">Ver mas</a>
+            </div>
+        </div>
+    </section>
+    <section class="features-sec">
+        <div class="container">
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                    <h3>COMPRA SEGURA</h3>
+                    <h5>Protegemos tu dinero</h5>
+                    <p>No importa cómo pagues (en efectivo en puntos de pago o con tarjeta de crédito), ¡tu dinero siempre está protegido!</p>
+                </li>
+                <li>
+                    <span class="icon return"><i class="fa fa-reply-all" aria-hidden="true"></i></span>
+                    <h3>DEVOLUCIONES</h3>
+                    <h5>100% gratis</h5>
+                    <p>Si te equivocaste al comprar o te reglaron un libro que ya tenias, podés devolverlo hasta 30 días corridos después de recibirlo.</p>
+                </li>
+                <li>
+                    <span class="icon chat"><i class="fa fa-comments" aria-hidden="true"></i></span>
+                    <h3>SOPORTE ONLINE</h3>
+                    <h5>Hace tus consultas online</h5>
+                    <p>Podes sacarte cualqueir duda usando nuestro chat online, o contactandote por email.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="offers-sec" style="background:url(images/offers.jpg)no-repeat;">
+        <div class="cover"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="detail">
+                        <h3>Desde 20% OFF!</h3>
+                        <p>Imperdibles descuentos semanales en mas de 30 libros seleccionados.</p>
+                        <a href="#" class="btn blue-btn">Ver ofertas</a>
+                        <span class="icon-point percentage">
+                            <img src="images/precentagae.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="detail">
+                        <h3>Hasta 6 cuotas s/interes!</h3>
+                        <p>Fijate si tu banco esta dentro de los elegidos.</p>
+                        <a href="#" class="btn blue-btn">Ver promociones</a>
+                        <span class="icon-point amount"><img src="images/amount.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="address">
+                        <h4>Our Address</h4>
+                        <p>Av. Avenida 1234,
+                        Galeria Avenida, L17,
+                        C.A.B.A.</p>
+                        <p>Call : 011 1234 5678</p>
+                        <p>Email : info@local.com</p>
+                    </div>
+                    <div class="timing">
+                        <h4>Horarios</h4>
+                        <p>Lunes a Sábado de 10:00 a 20:00.</p>
+                        <p>​Domingos: 14:00 a 18:00</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="navigation">
+                        <h4>Navegacion</h4>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="#">Mi Cuenta</a></li>                            
+                        </ul>
+                    </div>
+                    <div class="navigation">
+                        <h4>Ayuda</h4>
+                        <ul>
+                            <li><a href="#">Política de envios</a></li>
+                            <li><a href="#">Políticas de privacidad</a></li>
+                            <li><a href="#">Preguntas frecuentes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="form">
+                        <h3>Consultas</h3>
+                        <p>Si no encontras el libro o edicion que estas buscando, no dudes en cosularnos. Completa este formulario y te respondemos dentro de las proximas 72hs!</p>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input placeholder="Nombre" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea placeholder="Mensaje"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn black">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5> &copy; 2020</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="share align-middle">
+                            <span class="fb"><i class="fa fa-facebook-official"></i></span>
+                            <span class="instagram"><i class="fa fa-instagram"></i></span>
+                            <span class="twitter"><i class="fa fa-twitter"></i></span>
+                            <span class="pinterest"><i class="fa fa-pinterest"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
